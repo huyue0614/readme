@@ -1,10 +1,14 @@
 html, body, .main {
     width: 100%;
     height: 100%;
-    font-size: 12px;
+    font-size: 100px;
     overflow: hidden;
 }
-
+.main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 @media only screen and (min-width: 960px) {
     .g-screen {
         position: relative;
@@ -411,6 +415,7 @@ html, body, .main {
     margin-left: 3.75rem;
     margin-top: 1.3rem;
     opacity: 0;
+    font-size: 0.24rem;
 }
 
 .slide2 ul li {
@@ -424,14 +429,14 @@ html, body, .main {
     width: 80%;
     margin: 0.2rem auto 0;
     color: white;
-    font-size: 14px;
+    font-size: 0.24rem;
     opacity: 0;
 }
 
 .slide2 .want span {
-    font-size: 12px;
-    margin-left: 32%;
+    margin-left: 30%;
     color: #bcb373;
+    font-size: 0.3rem
 }
 
 .slide2 .want p {
