@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>移动端项目</title>
+    <link rel="stylesheet/less" href="css/index.less"/>
+    <script src="js/less-2.5.3.min.js"></script>
+</head>
+<body>
+<section class="musicBox">
+    <!--base-->
+    <div class="musicBg"></div>
+    <audio src="img/demo.m4a" preload="none" id="musicAudio"></audio>
+    <!--audio中几个常用的属性：
+    1. controls:是否使用浏览器自带的播放组件播放音乐，默认不用，写上这个属性则代表使用；
+    2. preload:
+        - none:该音频不会被缓存，不进行预加载；
+        - metadata：只加载媒体的元数据
+        - auto：预加载全部视频或音频
+        - 空字符串：等效于auto属性（这是默认值）
+    3. autoPlay:媒体是否自动播放；
+    4. loop:是否循环播放;
+    5. currentTime:开始到播放现在所用的时间，可以读取媒体当前的位置；
+    6. startTime:开始时间(只读)
+    7. duration:总播放时间(只读)
+    8. volume:播放音量，范围0-1，0为静音，1为最大音量；
+    audio中常用方法：
+    1. paly() 播放
+    2. pause()暂停
+    3. load() 重新加载媒体
+    4. canPlayType:是否支持指定的媒体类型
+    audio中常用事件：
+    canplay:音频部分资源已经加载成功，可以播放声音了；
+
+    -->
+
+    <header class="header">
+        <div class="base">
+            <img src="img/poster.jpg" alt=""/>
+            <p>
+                <span>模特</span>
+                <span>李荣浩</span>
+            </p>
+        </div>
+        <div class="musicBtn">
+            <a href="javascript:;" class="play"></a>
+            <a href="javascript:;" class="pause"></a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="lyric">
+            <!--<p>模特 - 李荣浩</p>
+            <p>词：周耀辉</p>-->
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="storage"><a href="javascript:;"></a></div>
+        <div class="progress">
+            <div class="current">00:00</div>
+            <div class="timeLine"><span></span></div>
+            <div class="duration">00:00</div>
+        </div>
+        <div class="downLoad">
+            <i>下载这首音乐</i>
+        </div>
+    </footer>
+</section>
+<script src="js/zepto.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
