@@ -6,8 +6,9 @@ html, body, .main,.swiper-container {
     height: 100%;
     overflow: hidden;
 }
-
-
+body{
+    font-size: .3rem;
+}
 .swiper-container-vertical > .swiper-pagination-progress {
     position: absolute;;
     margin-top: -4px;
@@ -21,7 +22,6 @@ html, body, .main,.swiper-container {
 .slide1, .slide3, .slide4, .slide5, .slide6{
     background: url("../img/22.png") no-repeat;
     background-size: 100% 100%;
-    font-size: .25rem;
 }
 
 #page1.slide1 img{
@@ -560,7 +560,7 @@ html, body, .main,.swiper-container {
     top: 25%;
 }
 .slide3 {
-    font-size: 0.25rem;
+    font-size: .5rem;
     color: white;
 }
 .slide3 .p1 {
