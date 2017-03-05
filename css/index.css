@@ -34,56 +34,56 @@ body{
     width: 4.52rem;
     height: 3.97rem;
     left:1.24rem;
-    top:5.52rem;
+    top:5.02rem;
 }
 
 .slide1 img:nth-child(2) {
-    width:10rem;
-    height:10rem;
-    left:-1.1rem;
-    top:-2rem;
+    width: 9rem;
+    height: 10rem;
+    left: -3.8em;
+    top: -2rem;
 }
 
 .slide1 img:nth-child(3) {
     width: 0.56rem;
     height: 0.5rem;
     left: 1.2rem;
-    top: 6.4rem;
+    top: 5.9rem;
 }
 
 .slide1 img:nth-child(4) {
     width: 0.56rem;
     height: 0.5rem;
     left: 1.2rem;
-    top: 8.2rem;
+    top: 7.7rem;
 }
 
 .slide1 img:nth-child(5) {
     width: 0.56rem;
     height: 0.5rem;
     left: 5.2rem;
-    top: 8.2rem;
+    top: 7.7rem;
 }
 
 .slide1 img:nth-child(6) {
     width: 0.56rem;
     height: 0.5rem;
     left: 3.3rem;
-    top: 9.1rem;
+    top: 8.6rem;
 }
 
 .slide1 img:nth-child(7) {
     width: 0.56rem;
     height: 0.5rem;
     left: 5.2rem;
-    top: 6.4rem;
+    top: 5.9rem;
 }
 
 .slide1 img:nth-child(8) {
     width: 0.56rem;
     height: 0.5rem;
     left: 3.3rem;
-    top: 5.4rem;
+    top: 4.9rem;
 
 }
 
@@ -91,63 +91,63 @@ body{
     width: 1.2rem;
     height: 1.3rem;
     left: 2.38rem;
-    top: 6.1rem;
+    top: 5.6rem;
 }
 
 .slide1 img:nth-child(10) {
     width: 1.2rem;
     height: 1.3rem;
     left: 3.7rem;
-    top: 6.1rem;
+    top: 5.6rem;
 }
 
 .slide1 img:nth-child(11) {
     width: 1.2rem;
     height: 1.3rem;
     left: 2.38rem;
-    top: 7.4rem;
+    top: 6.9rem;
 }
 
 .slide1 img:nth-child(12) {
     width: 1.2rem;
     height: 1.3rem;
     left: 3.7rem;
-    top: 7.4rem;
+    top: 6.9rem;
 }
 
 .slide1 img:nth-child(13) {
     width: 0.15rem;
     height: 2.92rem;
     left: 3.45rem;
-    top: 2.8rem;
+    top: 2.3rem;
 }
 
 .slide1 img:nth-child(14) {
     width: 0.15rem;
     height: 2.92rem;
     left: 3.44rem;
-    top: 9.3rem;
+    top: 8.8rem;
 }
 
 .slide1 img:nth-child(15) {
     width: 20rem;
     height: 4.27rem;
-    left: -7rem;
-    top: 2.7rem;
+    left: -6.6rem;
+    top: 1.85rem;
 }
 
 .slide1 img:nth-child(16) {
     width: 20rem;
     height: 4.27rem;
-    left: -7.1rem;
-    top: 8.4rem;
+    left: -6.6rem;
+    top: 7.9rem;
 }
 
 .slide1 img:nth-child(17) {
     width: 1.6rem;
     height: 0.28rem;
     left: 2.7rem;
-    top: 8.7rem;
+    top: 8.2rem;
 }
 
 .slide1 img:last-child {
@@ -155,7 +155,7 @@ body{
     height: 2.9rem;
     z-index: 0;
     left: 2.1rem;
-    top: 6.2rem;
+    top: 5.7rem;
 }
 
 .slide1 .svg-element {
@@ -236,25 +236,25 @@ body{
 }
 
 #page1 img:nth-child(9) {
-    opacity: 1;
+    opacity: 2;
     -webkit-animation: rotateInDownLeft 3s 1 both;
     animation: rotateInDownLeft 3s 1 both;
 }
 
 #page1 img:nth-child(10) {
-    opacity: 1;
+    opacity: 2;
     -webkit-animation: rotateInDownLeft 3s 1 both;
     animation: rotateInDownLeft 3s 1 both;
 }
 
 #page1 img:nth-child(11) {
-    opacity: 1;
+    opacity: 2;
     -webkit-animation: rotateInDownLeft 3s 1 both;
     animation: rotateInDownLeft 3s 1 both;
 }
 
 #page1 img:nth-child(12) {
-    opacity: 1;
+    opacity: 2;
     -webkit-animation: rotateInDownLeft 3s 1 both;
     animation: rotateInDownLeft 3s 1 both;
 }
