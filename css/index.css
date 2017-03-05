@@ -1,3 +1,6 @@
+html{
+    font-size: 100px;
+}
 html, body, .main,.swiper-container {
     width: 100%;
     height: 100%;
@@ -12,11 +15,13 @@ html, body, .main,.swiper-container {
     width: 100%;
     top: 100%;
     overflow: hidden;
+
 }
 
 .slide1, .slide3, .slide4, .slide5, .slide6{
     background: url("../img/22.png") no-repeat;
     background-size: 100% 100%;
+    font-size: .25rem;
 }
 
 #page1.slide1 img{
@@ -380,7 +385,7 @@ html, body, .main,.swiper-container {
     margin-left: 3.75rem;
     margin-top: 1.3rem;
     opacity: 0;
-    font-size: 0.24rem;
+    font-size: 0.25rem;
 }
 
 .slide2 ul li {
@@ -555,7 +560,7 @@ html, body, .main,.swiper-container {
     top: 25%;
 }
 .slide3 {
-    font-size: 0.04rem;
+    font-size: 0.25rem;
     color: white;
 }
 .slide3 .p1 {
@@ -639,6 +644,7 @@ html, body, .main,.swiper-container {
     -webkit-animation: fadeInRight 3s 1 0.1s both;
     animation: fadeInRight 3s 1 0.1s both;
 }
+
 .slide4 img:nth-child(4) {
     top: 0.75rem;
     right: 0.8rem;
@@ -702,10 +708,12 @@ html, body, .main,.swiper-container {
     padding: 0.1rem 0.01rem 0;
     background: url("../img/bor5.png") no-repeat center;
     text-align: center;
+    font-size: .25rem;
 }
 .slide4 .p1 {
     margin-left: 12%;
     margin-top: 39%;;
+
 }
 .slide4 .p2 {
     width: 105px;
@@ -856,7 +864,7 @@ html, body, .main,.swiper-container {
     opacity: 0;
     color: white;
     font-weight: bold;
-    font-size: 12px;
+    font-size: .25rem;
 }
 .slide5 p.p1{
     margin-left: 64%;
