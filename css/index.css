@@ -9,6 +9,8 @@ html, body, .main,.swiper-container {
 body{
     font-size: .3rem;
 }
+
+
 .swiper-container-vertical > .swiper-pagination-progress {
     position: absolute;;
     margin-top: -4px;
@@ -31,62 +33,79 @@ body{
 }
 
 .slide1 img:nth-child(1) {
-    
+
     width: 4.52rem;
+    margin-left:-2.26rem;
     height: 3.97rem;
-    left:1.24rem;
+    left:50%;
     top:50%;
-    margin-top:2.51rem;
+    margin-top:-2.51rem;
 }
 
 .slide1 img:nth-child(2) {
     width: 9rem;
     height: 10rem;
-    left: -3.8em;
-    top: -2rem;
+    top:50%;
+    left: 50%;
+    margin-top: -5rem;
+    margin-left: -4.5rem;
 }
 
 .slide1 img:nth-child(3) {
     width: 0.56rem;
     height: 0.5rem;
-    left: 1.2rem;
-    top: 5.9rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -2.3rem;
+    margin-top: -1.63rem;
+
 }
 
 .slide1 img:nth-child(4) {
     width: 0.56rem;
     height: 0.5rem;
-    left: 1.2rem;
-    top: 7.7rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -2.3rem;
+    margin-top: 0.1rem;
 }
 
 .slide1 img:nth-child(5) {
+
+
     width: 0.56rem;
     height: 0.5rem;
-    left: 5.2rem;
-    top: 7.7rem;
+    left: 50%;
+    top: 50%;
+    margin-left: 1.81rem;
+    margin-top: 0.12rem;
 }
 
 .slide1 img:nth-child(6) {
     width: 0.56rem;
     height: 0.5rem;
-    left: 3.3rem;
-    top: 8.6rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.28rem;
+    margin-top: 1.09rem;
 }
 
 .slide1 img:nth-child(7) {
     width: 0.56rem;
     height: 0.5rem;
-    left: 5.2rem;
-    top: 5.9rem;
+    left: 50%;
+    top: 50%;
+    margin-left: 1.81rem;
+    margin-top: -1.63rem;
 }
 
 .slide1 img:nth-child(8) {
     width: 0.56rem;
     height: 0.5rem;
-    left: 3.3rem;
-    top: 4.9rem;
-
+    left: 50%;
+    top: 50%;
+    margin-top: -2.6rem;
+    margin-left: -0.28rem;
 }
 
 .slide1 img:nth-child(9) {
@@ -120,29 +139,38 @@ body{
 .slide1 img:nth-child(13) {
     width: 0.15rem;
     height: 2.92rem;
-    left: 3.45rem;
-    top: 2.3rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.075rem;
+    margin-top:-5.8rem;
 }
 
 .slide1 img:nth-child(14) {
     width: 0.15rem;
     height: 2.92rem;
-    left: 3.44rem;
-    top: 8.8rem;
+    left: 50%;
+    top: 50%;
+    margin-top:1.7rem;
+    margin-left: -0.02rem;
 }
 
 .slide1 img:nth-child(15) {
+
     width: 20rem;
     height: 4.27rem;
-    left: -6.6rem;
-    top: 1.85rem;
+    left: 50%;
+    top: 50%;
+    margin-left:-10.13rem;
+    margin-top:-6.135rem;
 }
 
 .slide1 img:nth-child(16) {
     width: 20rem;
     height: 4.27rem;
-    left: -6.6rem;
-    top: 7.9rem;
+    left: 50%;
+    top: 50%;
+    margin-left:-10.13rem;
+    margin-top:0.7rem;
 }
 
 .slide1 img:nth-child(17) {
