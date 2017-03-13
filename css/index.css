@@ -309,13 +309,13 @@ body{
 }
 
 #page1 img:nth-child(13) {
-    opacity: 1;
+    opacity: 0.6;
     -webkit-animation: bounceInDown 1.5s 1 both;
     animation: bounceInDown 1.5s 1 both;
 }
 
 #page1 img:nth-child(14) {
-    opacity: 1;
+    opacity: 0.6;
     -webkit-animation: bounceInUp 1.5s 1 both;
     animation: bounceInUp 1.5s 1 both;
 }
