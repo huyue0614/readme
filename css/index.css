@@ -111,29 +111,37 @@ body{
 .slide1 img:nth-child(9) {
     width: 1.2rem;
     height: 1.3rem;
-    left: 2.38rem;
-    top: 5.6rem;
+    left: 50%;
+    top: 50%;
+    margin-top: -1.8rem;
+    margin-left: -1.2rem;
 }
 
 .slide1 img:nth-child(10) {
     width: 1.2rem;
     height: 1.3rem;
-    left: 3.7rem;
-    top: 5.6rem;
+    left: 50%;
+    top: 50%;
+    margin-top: -1.8rem;
+    margin-left: 0.2rem;
 }
 
 .slide1 img:nth-child(11) {
     width: 1.2rem;
     height: 1.3rem;
-    left: 2.38rem;
-    top: 6.9rem;
+    left: 50%;
+    top: 50%;
+    margin-top: -0.55rem;
+    margin-left: -1.2rem;
 }
 
 .slide1 img:nth-child(12) {
     width: 1.2rem;
     height: 1.3rem;
-    left: 3.7rem;
-    top: 6.9rem;
+    left: 50%;
+    top: 50%;
+    margin-top: -0.55rem;
+    margin-left: 0.2rem;
 }
 
 .slide1 img:nth-child(13) {
@@ -176,16 +184,21 @@ body{
 .slide1 img:nth-child(17) {
     width: 1.6rem;
     height: 0.28rem;
-    left: 2.7rem;
-    top: 8.2rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.8rem;
+    margin-top:2rem;
 }
 
 .slide1 img:last-child {
     width: 3rem;
     height: 2.9rem;
     z-index: 0;
-    left: 2.1rem;
-    top: 5.7rem;
+    left: 50%;
+    top: 50%;
+    margin-top:-1.45rem;
+    margin-left: -1.9rem;
+
 }
 
 .slide1 .svg-element {
