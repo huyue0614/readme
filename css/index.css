@@ -34,7 +34,8 @@ body{
     width: 4.52rem;
     height: 3.97rem;
     left:1.24rem;
-    top:5.02rem;
+    top:50%;
+    margin-top:2.51rem;
 }
 
 .slide1 img:nth-child(2) {
