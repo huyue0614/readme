@@ -606,6 +606,7 @@ body{
 }
 .slide3 p{
     position: absolute;
+    opacity: 0;
 }
 .slide3 .p1 {
     width: 80%;
@@ -697,65 +698,79 @@ body{
     opacity: 0;
     width: 4.85rem;
     height: 0.6rem;
-    left: 13%;
-    top: 12%;
+    left: 50%;
+    top: 50%;
+    margin-left: -37%;
+    margin-top: -66%;
 }
 .slide4 img:nth-child(7) {
     opacity: 0;
     width: 4.85rem;
     height: 0.6rem;
-    left: 13%;
-    top: 79%;
+    left: 50%;
+    top: 50%;
+    margin-left: -37%;
+    margin-top: 51%;
 }
 .slide4 img:nth-child(8) {
     width: 0.9rem;
     height: 6.5rem;
     left: 50%;
-    top: 51%;
+    top: 50%;
     margin-left: -0.45rem;
     margin-top: -3.5rem;
 }
 .slide4 img:nth-child(9) {
     width: 0.32rem;
     height: 0.24rem;
-    left: 47%;
-    top: 26%;
+    left: 50%;
+    top:50%;
+    margin-left: -3%;
+    margin-top: -44%;
 }
 .slide4 img:nth-child(10) {
     width: 0.32rem;
     height: 0.24rem;
-    left: 47%;
-    top: 36%;
+    left: 50%;
+    top:50%;
+    margin-left: -3%;
+    margin-top: -24%;
 }
 .slide4 img:nth-child(11) {
     width: 0.32rem;
     height: 0.24rem;
-    left: 41%;
-    top: 47%;
+    left: 50%;
+    top: 50%;
+    margin-left: -9%;
+    margin-top: -7%;
 }
 .slide4 img:nth-child(12) {
     width: 0.32rem;
     height: 0.24rem;
-    left: 50.5%;
-    top: 54%;
+    left: 50%;
+    top: 50%;
+    margin-left: 1%;
+    margin-top: 4%;
 }
 .slide4 img:nth-child(13) {
     width: 0.32rem;
     height: 0.24rem;
-    left: 43%;
-    top: 67%;
+    left: 50%;
+    top: 50%;
+    margin-top: 27%;
+    margin-left: -6%;
 }
 .slide4{
     position: relative;
 }
 .slide4 p {
     position: absolute;
-    width: 2.2rem;
+    opacity: 0;
+    width: 2rem;
     height: 0.7rem;
     color: white;
-    padding: 0.1rem 0.01rem 0;
+    padding: 0.1rem 0.1rem 0;
     background: url("../img/bor5.png") no-repeat center;
-    text-align: center;
     font-size: .25rem;
 }
 .slide4 .p1 {
@@ -933,6 +948,7 @@ body{
 }
 .slide5 p{
     position: absolute;
+    opacity: 0;
     color: white;
     font-weight: bold;
     font-size: .25rem;
@@ -1049,6 +1065,8 @@ body{
 .slide6 .bor img{
     width: 50%;
     height: 30%;
+    left: 50%;
+    top:50%;
     margin-top: 15%;
     margin-left: 22%;
     border-radius: 0.1rem;
