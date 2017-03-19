@@ -33,7 +33,6 @@ body{
 }
 
 .slide1 img:nth-child(1) {
-
     width: 4.52rem;
     margin-left:-2.26rem;
     height: 3.97rem;
@@ -168,13 +167,12 @@ body{
 }
 
 .slide1 img:nth-child(15) {
-
     width: 20rem;
     height: 4.27rem;
     left: 50%;
     top: 50%;
     margin-left:-10.13rem;
-    margin-top:-6.035rem;
+    margin-top: -5.75rem;
 }
 
 .slide1 img:nth-child(16) {
@@ -183,7 +181,7 @@ body{
     left: 50%;
     top: 50%;
     margin-left:-10.13rem;
-    margin-top:0.7rem;
+    margin-top: 0.45rem;
 }
 
 .slide1 img:nth-child(17) {
@@ -309,13 +307,13 @@ body{
 }
 
 #page1 img:nth-child(13) {
-    opacity: 0.6;
+    opacity: 1;
     -webkit-animation: bounceInDown 1.5s 1 both;
     animation: bounceInDown 1.5s 1 both;
 }
 
 #page1 img:nth-child(14) {
-    opacity: 0.6;
+    opacity: 1;
     -webkit-animation: bounceInUp 1.5s 1 both;
     animation: bounceInUp 1.5s 1 both;
 }
@@ -359,8 +357,10 @@ body{
 .slide6 img:nth-child(1) {
     width: 80%;
     height: 80%;
-    margin-left: 10%;
-    margin-top: 14%;
+    left:50%;
+    top:50%;
+    margin-left: -40%;
+    margin-top: -75%;
     z-index: 1;
 }
 
