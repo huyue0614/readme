@@ -456,7 +456,7 @@ body{
 
 .slide2 .want p {
     width: 90%;
-    padding: 0.3rem;
+    padding: 0.25rem;
     color: #ccc;
     line-height: 0.5rem;
     text-indent: 0.4rem;
@@ -762,13 +762,13 @@ body{
 .slide4 p {
     position: absolute;
     opacity: 0;
-    width: 2rem;
-    height: 0.7rem;
+    width: 1.9rem;
+    height: 0.65rem;
     color: white;
     padding: 0.1rem 0.1rem 0;
     background: url("../img/bor5.png") no-repeat center;
     background-size:100% 100%;
-    font-size: .25rem;
+    font-size: .24rem;
 }
 .slide4 .p1 {
     left: 12%;
@@ -1049,13 +1049,14 @@ body{
 .slide6 h1{
     text-align: center;
     color: #ccc;
-    margin-top: 0.5rem;
+    margin-top: 0.4rem;
 }
 .slide6 ul{
+    font-size: 0.24rem;
     margin-top: 0.3rem;
 }
 .slide6 ul li{
-    line-height: .7rem;
+    line-height: .6rem;
     padding-left: 5%;
 }
 .slide6 .bor img{
@@ -1063,7 +1064,7 @@ body{
     height: 30%;
     left: 50%;
     top:50%;
-    margin-top: 7%;
+    margin-top: 5%;
     margin-left: 22%;
     border-radius: 0.1rem;
 }
