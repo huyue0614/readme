@@ -713,13 +713,13 @@ body{
     left: 50%;
     top: 51%;
     margin-left: -0.45rem;
-    margin-top: -3.8rem;
+    margin-top: -3.5rem;
 }
 .slide4 img:nth-child(9) {
     width: 0.32rem;
     height: 0.24rem;
     left: 47%;
-    top: 23%;
+    top: 26%;
 }
 .slide4 img:nth-child(10) {
     width: 0.32rem;
@@ -760,7 +760,7 @@ body{
 }
 .slide4 .p1 {
     left: 12%;
-    top: 22%;
+    top: 25%;
 }
 .slide4 .p2 {
     left: 53%;
