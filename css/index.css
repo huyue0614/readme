@@ -213,7 +213,7 @@ body{
     z-index: 3;
 }
 
-#page1, #page2, #page3, #page4, #page5{
+#page1, #page2, #page3, #page4, #page5,#page6{
     transition: move1 3s linear;
     -webkit-animation: move1 5s 1 both;
     animation: move1 5s 1 both;
@@ -1019,12 +1019,61 @@ body{
 }
 
 
-
-.slide6 img:nth-child(4) {
-    top: 0.75rem;
-    right: 0.8rem;
-    z-index: 2;
+.slide6{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
+.slide6 .bor{
+    opacity: 0;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top:10%;
+    border: 2px dashed cadetblue;
+    color: white;
+}
+.slide6 h1{
+    text-align: center;
+    color: #ccc;
+    margin-top: 0.5rem;
+}
+.slide6 ul{
+    margin-top: 0.3rem;
+}
+.slide6 ul li{
+    line-height: .7rem;
+    padding-left: 5%;
+}
+.slide6 .bor img{
+    width: 50%;
+    height: 30%;
+    margin-top: 15%;
+    margin-left: 22%;
+    border-radius: 0.1rem;
+}
+#page6 .bor{
+    opacity: 1;
+    -webkit-animation: fadeIn 1s 1  both;
+    animation: fadeIn 1s 1  both;
+}
+#page6 .bor h1{
+    opacity: 1;
+    -webkit-animation: wobble 1.5s 1  both;
+    animation: wobble 1.5s 1  both;
+}
+#page6 ul {
+    opacity: 1;
+    -webkit-animation: lightSpeedIn 2s 1  both;
+    animation: lightSpeedIn 2s 1  both;
+}
+#page6 .bor img{
+    opacity: 1;
+    -webkit-animation: zoomIn 2.5s 1  both;
+    animation: zoomIn 2.5s 1  both;
+}
+
 .music {
     width: 0.6rem;
     height: 0.6rem;
