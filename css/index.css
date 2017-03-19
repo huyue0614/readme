@@ -357,10 +357,8 @@ body{
 {
     width: 82%;
     height: 80%;
-    left:50%;
-    top:50%;
-    margin-left: -2.6rem;
-    margin-top: -4.8rem;
+    left: 10%;
+    top: 8%;
     z-index: 1;
 }
 
@@ -375,11 +373,8 @@ body{
 
 .slide2 img:nth-child(3), .slide3 img:nth-child(3),
 .slide4 img:nth-child(3), .slide5 img:nth-child(3){
-    left: 50%;
-    top: 50%;
-    margin-left: -1.5rem;
-    margin-top: 4.5rem;
-
+    left: 23%;
+    top: 90%;
 }
 
 .slide2 img:nth-child(4) {
