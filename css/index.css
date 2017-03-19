@@ -350,6 +350,7 @@ body{
 .slide2 {
     background: url("../img/11.png");
     background-size: 100% 100%;
+    position: relative;
 }
 
 .slide2 img:nth-child(1), .slide3 img:nth-child(1),
@@ -444,11 +445,11 @@ body{
 }
 
 .slide2 .want {
+    position: absolute;
     width: 80%;
-    margin: 0.2rem auto 0;
+    left: 11%;
     color: white;
     font-size: 0.24rem;
-    opacity: 0;
 }
 
 .slide2 .want span {
@@ -545,82 +546,81 @@ body{
     width: 1.1rem;
     height: 1.2rem;
     left: 22%;
-    top: 67%;
+    top: 71%;
 }
 .slide3 img:nth-child(7) {
     width: 1.1rem;
     height: 1.2rem;
     left: 59%;
-    top: 19%;
+    top: 23%;
 
 }
 .slide3 img:nth-child(8) {
     width: 2.66rem;
     height: 0.7rem;
     left: 29%;
-    top: 21.5%;
+    top: 25.5%;
 }
 .slide3 img:nth-child(9) {
     width: 2.66rem;
     height: 0.7rem;
     left: 28%;
-    top: 69.5%;
+    top: 73.5%;
 }
 .slide3 img:nth-child(10) {
     width: 0.42rem;
     height: 2.2rem;
     left: 21%;
-    top: 31%;
+    top: 38%;
 }
 .slide3 img:nth-child(11) {
     width: 0.4rem;
     height: 2.2rem;
     left: 68%;
-    top: 52%;
+    top: 55%;
 }
 .slide3 img:nth-child(12) {
     width: 2.2rem;
     height: 0.7rem;
     left: 27%;
-    top: 44%;
+    top: 50%;
 }
 .slide3 img:nth-child(13) {
     width: 2.2rem;
     height: 0.7rem;
     left: 34%;
-    top: 63%;
+    top: 67%;
 }
 .slide3 img:nth-child(14) {
     width: 2.2rem;
     height: 0.7rem;
     left: 37%;
-    top: 14%;
+    top: 18%;
 }
 .slide3 img:nth-child(15) {
     width: 1.84rem;
     height: 0.32rem;
-    left: 13%;
-    top: 25%;
+    left: 15%;
+    top: 31%;
 }
 .slide3 {
     font-size: .3rem;
     color: white;
 }
 .slide3 .p1 {
-    opacity: 0;
+    width: 80%;
     margin-left: 13%;
-    margin-top: 19%;
+    margin-top: 21%;
 }
 .slide3 .p2 {
-    opacity: 0;
     width: 60%;
     margin-left: 30%;
-    margin-top: 42%;
+    margin-top: 43%;
 }
 .slide3 .p3 {
-    opacity: 0;
+    width: 55%;
     margin-left: 14%;
-    margin-top: 28%;
+    margin-top: 21%;
 }
 #page3 img:nth-child(1) {
     opacity: 1;
