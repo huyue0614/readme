@@ -213,7 +213,7 @@ body{
     z-index: 3;
 }
 
-#page1, #page2, #page3, #page4, #page5, #page6, #page7 {
+#page1, #page2, #page3, #page4, #page5{
     transition: move1 3s linear;
     -webkit-animation: move1 5s 1 both;
     animation: move1 5s 1 both;
@@ -353,20 +353,19 @@ body{
 }
 
 .slide2 img:nth-child(1), .slide3 img:nth-child(1),
-.slide4 img:nth-child(1), .slide5 img:nth-child(1),
-.slide6 img:nth-child(1) {
-    width: 80%;
+.slide4 img:nth-child(1), .slide5 img:nth-child(1)
+{
+    width: 82%;
     height: 80%;
     left:50%;
     top:50%;
-    margin-left: -40%;
-    margin-top: -75%;
+    margin-left: -2.6rem;
+    margin-top: -4.8rem;
     z-index: 1;
 }
 
 .slide2 img:nth-child(2), .slide3 img:nth-child(2),
-.slide4 img:nth-child(2), .slide5 img:nth-child(2),
-.slide6 img:nth-child(2) {
+.slide4 img:nth-child(2), .slide5 img:nth-child(2){
     width: 0.71rem;
     height: 0.67rem;
     left: .25rem;
@@ -375,11 +374,12 @@ body{
 }
 
 .slide2 img:nth-child(3), .slide3 img:nth-child(3),
-.slide4 img:nth-child(3), .slide5 img:nth-child(3),
-.slide6 img:nth-child(3) {
-    bottom: 0.8rem;
-    left: 1.4rem;
-    z-index: 2;
+.slide4 img:nth-child(3), .slide5 img:nth-child(3){
+    left: 50%;
+    top: 50%;
+    margin-left: -1.5rem;
+    margin-top: 4.5rem;
+
 }
 
 .slide2 img:nth-child(4) {
@@ -391,16 +391,20 @@ body{
 .slide2 img:nth-child(5) {
     width: 2.3rem;
     height: 3.8rem;
-    top: 1.25rem;
-    right: 3.2rem;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.45rem;
+    margin-top: -4.4rem;
     z-index: 2;
 }
 
 .slide2 img:nth-child(9) {
     width: 2.1rem;
     height: 3.5rem;
-    top: 1.4rem;
-    right: 3.3rem;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.35rem;
+    margin-top: -4.2rem;
     border-radius: 0.05rem;
     z-index: 0;
 }
@@ -408,20 +412,19 @@ body{
 .slide2 img:nth-child(6) {
     width: 0.2rem;
     height: 0.4rem;
-    left: 52%;
+    left: 49%;
     top: 28%;
 }
 
 .slide2 img:nth-child(7) {
     width: 0.04rem;
     height: 2.55rem;
-    left: 58%;
+    left: 54%;
     top: 17%;
 }
 
 .slide2 img:nth-child(8), .slide3 img:nth-child(5),
-.slide4 img:nth-child(5), .slide5 img:nth-child(5),
-.slide6 img:nth-child(5) {
+.slide4 img:nth-child(5), .slide5 img:nth-child(5){
     width: 0.52rem;
     height: 0.52rem;
     left: 85%;
@@ -429,9 +432,10 @@ body{
 }
 
 .slide2 ul {
+    color: white;
     width: 2rem;
     height: 4rem;
-    margin-left: 3.75rem;
+    margin-left: 3.45rem;
     margin-top: 1.3rem;
     opacity: 0;
     font-size: 0.25rem;
@@ -466,37 +470,33 @@ body{
     text-indent: 0.4rem;
 }
 
-#page2.slide2 img, #page3.slide3 img, #page4.slide4 img, #page5.slide5 img, #page6.slide6 img {
+#page2.slide2 img, #page3.slide3 img, #page4.slide4 img, #page5.slide5 img{
     position: absolute;
     opacity: 0;
 }
 
-#page2 img:nth-child(1), #page4 img:nth-child(1), #page5 img:nth-child(1),
-#page6 img:nth-child(1) {
+#page2 img:nth-child(1), #page4 img:nth-child(1), #page5 img:nth-child(1){
     opacity: 1;
     -webkit-animation: rubberBand 1s 1 both;
     animation: rubberBand 1s 1 both;
 }
 
 #page2 img.img2, #page3 img:nth-child(2),
-#page4 img:nth-child(2), #page5 img:nth-child(2),
-#page6 img:nth-child(2) {
+#page4 img:nth-child(2), #page5 img:nth-child(2) {
     opacity: 1;
     -webkit-animation: rotateIn 2s infinite both;
     animation: rotateIn 2s infinite both;
 }
 
 #page2 img:nth-child(3), #page3 img:nth-child(3),
-#page4 img:nth-child(3), #page5 img:nth-child(3),
-#page6 img:nth-child(3) {
+#page4 img:nth-child(3), #page5 img:nth-child(3) {
     opacity: 1;
     -webkit-animation: sildeInUp 2s 1 both;
     animation: sildeInUp 2s 1 both;
 }
 
 #page2 img:nth-child(4), #page3 img:nth-child(4),
-#page4 img:nth-child(4), #page5 img:nth-child(4),
-#page6 img:nth-child(4) {
+#page4 img:nth-child(4), #page5 img:nth-child(4){
     opacity: 1;
     -webkit-animation: rubberBand 1s 1 both;
     animation: rubberBand 1s 1 both;
@@ -521,8 +521,7 @@ body{
 }
 
 #page2 img:nth-child(8), #page3 img:nth-child(5),
-#page4 img:nth-child(5), #page5 img:nth-child(5),
-#page6 img:nth-child(5) {
+#page4 img:nth-child(5), #page5 img:nth-child(5) {
     opacity: 1;
     -webkit-animation: rotateIn 5s infinite both;
     animation: rotateIn 5s infinite both;
