@@ -110,6 +110,7 @@ body{
     height: 0.5rem;
     left: 50%;
     top: 50%;
+    opacity: 0;
     margin-top: -2.6rem;
     margin-left: -0.28rem;
 }
@@ -145,6 +146,7 @@ body{
     margin-top: -0.75rem;
     margin-left: -1.1rem;
     z-index: 999;
+    opacity: 0;
 }
 
 .slide1 img:nth-child(12) {
@@ -418,6 +420,7 @@ body{
     height: 3.5rem;
     top: 13.5%;
     left: 13.5%;
+    opacity: 0;
     border-radius: 0.05rem;
     z-index: 0;
 }
@@ -442,6 +445,7 @@ body{
     height: 0.52rem;
     left: 85%;
     top: 85%;
+    opacity: 0;
 }
 
 .slide2 ul {
@@ -557,6 +561,7 @@ body{
 .slide3 img:nth-child(4) {
     top: 0.75rem;
     right: 0.8rem;
+    opacity: 0;
     z-index: 2;
 }
 .slide3 img:nth-child(6) {
@@ -564,12 +569,14 @@ body{
     height: 1.2rem;
     left: 22%;
     top: 71%;
+    opacity: 0;
 }
 .slide3 img:nth-child(7) {
     width: 1.1rem;
     height: 1.2rem;
     left: 59%;
     top: 23%;
+    opacity: 0;
 
 }
 .slide3 img:nth-child(8) {
@@ -577,18 +584,21 @@ body{
     height: 0.7rem;
     left: 29%;
     top: 25.5%;
+    opacity: 0;
 }
 .slide3 img:nth-child(9) {
     width: 2.66rem;
     height: 0.7rem;
     left: 28%;
     top: 73.5%;
+    opacity: 0;
 }
 .slide3 img:nth-child(10) {
     width: 0.42rem;
     height: 2.2rem;
     left: 21%;
     top: 38%;
+    opacity: 0;
 }
 .slide3 img:nth-child(11) {
     width: 0.4rem;
@@ -714,6 +724,7 @@ body{
     top: 0.75rem;
     right: 0.8rem;
     z-index: 2;
+    opacity: 0;
 }
 .slide4 img:nth-child(6) {
     opacity: 0;
@@ -734,6 +745,7 @@ body{
     height: 6.5rem;
     left: 50%;
     top: 50%;
+    opacity: 0;
     margin-left: -0.45rem;
     margin-top: -3.5rem;
 }
@@ -875,6 +887,7 @@ body{
     height: 2.14rem;
     left: 50%;
     top: 50%;
+    opacity: 0;
     margin-left: -15.5%;
     margin-top: -22.5%;
 }
@@ -883,6 +896,7 @@ body{
     height: 2.45rem;
     left: 50%;
     top: 50%;
+    opacity: 0;
     margin-left: -18%;
     margin-top: -25%;
 }
@@ -891,6 +905,7 @@ body{
     height: 3.2rem;
     left: 50%;
     top: 50%;
+    opacity: 0;
     margin-left: -24%;
     margin-top: -31%;
 }
@@ -962,6 +977,7 @@ body{
     top: 0.75rem;
     right: 0.6rem;
     z-index: 2;
+    opacity: 0;
 }
 .slide5 p{
     position: absolute;
